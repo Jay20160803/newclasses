@@ -4,6 +4,12 @@ spring:
     host: 47.101.165.128
     port: 6379
     password:
+  rabbitmq:
+    host: 101.132.137.11
+    port: 5672
+    username: guest
+    password: guest
+
   datasource:
     name: mysql_dev
     type: com.alibaba.druid.pool.DruidDataSource

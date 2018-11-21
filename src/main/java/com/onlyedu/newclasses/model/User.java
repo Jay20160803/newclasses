@@ -1,12 +1,13 @@
 package com.onlyedu.newclasses.model;
 
 import javax.validation.constraints.NotNull;
+import java.io.Serializable;
 
 /**
  * @author Andy
  * @date 2018/11/20 17:46
  */
-public class User {
+public class User implements Serializable {
 
     @NotNull(message = "userName 不能为空")
     private String userName;

@@ -2,6 +2,8 @@ package com.onlyedu.newclasses;
 
 import com.onlyedu.newclasses.testModule.dao.UserDao;
 import com.onlyedu.newclasses.model.User;
+import com.rabbitmq.client.Connection;
+import com.rabbitmq.client.ConnectionFactory;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -52,5 +54,7 @@ public class NewclassesApplicationTests {
             throw new RuntimeException("查询数据失败");
         }
     }
+
+
 
 }
