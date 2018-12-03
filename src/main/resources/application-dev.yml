@@ -13,7 +13,7 @@ spring:
   datasource:
     name: mysql_dev
     type: com.alibaba.druid.pool.DruidDataSource
-    #druid相关配置
+    #druid相关配置1
     druid:
       #监控统计拦截的filters
       filters: stat
