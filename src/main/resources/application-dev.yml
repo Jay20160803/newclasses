@@ -1,11 +1,11 @@
 spring:
   redis:
     database: 0
-    host:
+    host: 47.101.165.128
     port: 6379
     password:
   rabbitmq:
-    host:
+    host: 101.132.137.11
     port: 5672
     username: guest
     password: guest
@@ -21,7 +21,7 @@ spring:
       #基本属性
       url: jdbc:mysql://47.100.247.41:3306/newclasses?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
       username: root
-      password:
+      password: onlyEdu868!
       #配置初始化大小/最小/最大
       initial-size: 1
       min-idle: 1
